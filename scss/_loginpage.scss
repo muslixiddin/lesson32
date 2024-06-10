@@ -1,0 +1,91 @@
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .login_img{
+        width: 100%;
+        // height: 232px;
+        
+    }
+    .login_right{
+        .login_right-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+        .login_right-info{
+            font-style: 16px;
+            font-weight: 400;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+    .login_inputs{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .login_input{
+            width: 315px;
+            padding: 12px 0px 12px 20px;
+            background: #FFFFFF;
+            font-size: 16px;
+            font-weight: 400;
+            border: none;
+            border-radius: 20px;
+        }
+    }
+}
+
+@media (min-width: 786px) {
+    .loginpage{
+        display: grid;
+        grid-template-columns: 60% auto;
+        .login_img{
+            width: 100%;
+            
+            
+        }
+        .login_right{
+            .login_right-title{
+
+                font-size: 38px;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+            .login_right-info{
+                font-style: 16px;
+                font-weight: 400;
+                color: #FFFFFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+            }
+        }
+        .login_inputs{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .login_input{
+                width: 315px;
+                padding: 12px 0px 12px 20px;
+                background: #FFFFFF;
+                font-size: 16px;
+                font-weight: 400;
+                border: none;
+                border-radius: 20px;
+            }
+        }
+    }
+}
